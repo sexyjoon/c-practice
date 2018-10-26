@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
+#include "pointer_basic.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    pointer_basic_print();
+    pointer_basic_print2();
     return 0;
 }
