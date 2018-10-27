@@ -11,6 +11,7 @@
 		A50C64212183700300E9DEAD /* pointer_basic.c in Sources */ = {isa = PBXBuildFile; fileRef = A50C64202183700300E9DEAD /* pointer_basic.c */; };
 		A50C6424218378DE00E9DEAD /* pointer_and_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A50C6423218378DE00E9DEAD /* pointer_and_array.c */; };
 		A52AD38B21843F000077B803 /* pointer_and_function.c in Sources */ = {isa = PBXBuildFile; fileRef = A52AD38A21843F000077B803 /* pointer_and_function.c */; };
+		A52AD38E2184445F0077B803 /* challenge2.c in Sources */ = {isa = PBXBuildFile; fileRef = A52AD38D2184445F0077B803 /* challenge2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		A50C6423218378DE00E9DEAD /* pointer_and_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_and_array.c; sourceTree = "<group>"; };
 		A52AD38921843F000077B803 /* pointer_and_function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer_and_function.h; sourceTree = "<group>"; };
 		A52AD38A21843F000077B803 /* pointer_and_function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_and_function.c; sourceTree = "<group>"; };
+		A52AD38C2184445F0077B803 /* challenge2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = challenge2.h; sourceTree = "<group>"; };
+		A52AD38D2184445F0077B803 /* challenge2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = challenge2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				A50C6423218378DE00E9DEAD /* pointer_and_array.c */,
 				A52AD38921843F000077B803 /* pointer_and_function.h */,
 				A52AD38A21843F000077B803 /* pointer_and_function.c */,
+				A52AD38C2184445F0077B803 /* challenge2.h */,
+				A52AD38D2184445F0077B803 /* challenge2.c */,
 			);
 			path = "c-practice";
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A50C6424218378DE00E9DEAD /* pointer_and_array.c in Sources */,
+				A52AD38E2184445F0077B803 /* challenge2.c in Sources */,
 				A50C64212183700300E9DEAD /* pointer_basic.c in Sources */,
 				A50C64192183681F00E9DEAD /* main.c in Sources */,
 				A52AD38B21843F000077B803 /* pointer_and_function.c in Sources */,
