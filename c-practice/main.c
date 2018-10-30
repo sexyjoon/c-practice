@@ -11,6 +11,7 @@
 #include "pointer_and_array.h"
 #include "pointer_and_function.h"
 #include "challenge2.h"
+#include "challenge3.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -35,6 +36,7 @@ int main(int argc, const char * argv[]) {
     printf("After swap3() - num1 : %d, num2 : %d, num3 : %d\n", num1, num2, num3);
     */
     
+    /*
     int array[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
     print_odd_numbers(array, sizeof(array)/sizeof(array[0]));
     print_even_numbers(array, sizeof(array)/sizeof(array[0]));
@@ -53,6 +55,19 @@ int main(int argc, const char * argv[]) {
         printf("%d ", array3[i]);
     }
     printf("\n");
+    */
     
+    int array[4][4] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+    
+    rotate_2x2_array(array);
+    
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            printf("%d ", array[i][j]);
+        }
+        printf("\n");
+    }
+    
+    print_2x2_snail_array(6);
     return 0;
 }
